@@ -7,7 +7,7 @@ import Watchlist from "./components/Watchlist";
 import MySongs from "./components/MySongs";
 import SongsModal from "./components/SongsModal";
 // omdb KEY
-const OMDBAPI = import.meta.env.OMDB_API;
+const OMDBAPI = import.meta.env.VITE_OMDB_API;
 const OMDB_URL = "https://www.omdbapi.com/";
 
 // YT API
@@ -40,11 +40,11 @@ function App() {
 
     fetch(
       OMDB_URL +
-        "?apikey=" +
-        OMDBAPI +
-        "&s=" +
-        encodeURIComponent(query) +
-        "&type=movie",
+      "?apikey=" +
+      OMDBAPI +
+      "&s=" +
+      encodeURIComponent(query) +
+      "&type=movie",
     )
       .then((res) => res.json())
       .then((data) => {

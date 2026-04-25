@@ -1,8 +1,7 @@
 // MovieCard component - displays one movie
 function MovieCard({ movie, onAddWatchlist, isInWatchlist, onShowSongs }) {
-  
   // check if poster exists
-  let hasPoster = movie.Poster && movie.Poster !== "N/A"
+  let hasPoster = movie.Poster && movie.Poster !== "N/A";
 
   return (
     <div className="movie-card">
@@ -40,16 +39,13 @@ function MovieCard({ movie, onAddWatchlist, isInWatchlist, onShowSongs }) {
           >
             {isInWatchlist ? "✓ Watchlist" : "+ Watchlist"}
           </button>
-          <button
-            className="songs-btn"
-            onClick={() => onShowSongs(movie)}
-          >
+          <button className="songs-btn" onClick={() => onShowSongs(movie)}>
             Find Songs
           </button>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default MovieCard
+export default MovieCard;
