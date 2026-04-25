@@ -13,11 +13,11 @@ Whether you're looking for high-quality official music tracks or using AI to fin
 - **AI-Powered Search (Gemini 2.5 Flash):** Toggle "AI Search" to find movies by describing their plot, mood, or "vibes" (e.g., *"A movie about time travel and love"*).
 - **Comprehensive Metadata:** Powered by the **OMDB API**, each movie card displays ratings, release years, genres, and high-quality posters.
 - **Personal Watchlist:** Save movies to your session-based Watchlist for later viewing.
-- **IMDb Aesthetic:** A dark `#121212` canvas with sharp, professional yellow (`#f5c518`) accents and hover effects.
+- **IMDb Aesthetic:** A dark  canvas with sharp, professional yellow accents and hover effects.
 
 ### The Music Engine (Spotify Theme)
 - **Official Audio Search:** Powered by the **YouTube Data API v3**, all music searches automatically filter for "official audio" or "official music video" to ensure high-quality studio tracks over fan-made content.
-- **Spotify Aesthetic:** Smooth, deep black cards with vibrant green (`#1db954`) active states and clean action buttons.
+- **Spotify Aesthetic:** Smooth, deep black cards with vibrant green active states and clean action buttons.
 - **Persistent Playback:** An integrated YouTube player bar expands at the top of the music page, allowing you to listen to tracks while continuing your search.
 - **Movie Soundtrack Integration:** Directly search for any movie's official soundtrack without leaving the movie page via the `SongsModal`.
 - **My Songs Collection:** Save your favorite tracks to a dedicated "My Songs" list.
@@ -46,8 +46,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd Moviedecibel
+   git clone https://github.com/AYUSH-KAVYA/decibel.git
+   cd decibel
    ```
 
 2. **Install dependencies:**
